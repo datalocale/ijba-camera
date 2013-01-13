@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+  
+          html { height: 100% }
+  body { 
+  height: 100%;
+  color:#333;
+   font-family: helvetica,sans-serif;
+	 padding: 0;
+	overflow:hidden;
+	margin:0;
+	 }
+  #map_canvas { height: 100%; z-index:0; }
+  #fond { width:10000px; height:10000px; background-image: url("../images/final4.png"); z-index:1; }
+  
+  
+     #wrapper_all {
+		  
+		  position:relative;
+		  height:100%;
+		  width:100%;
+		  margin:0;
+		  padding:0;
+		   background-image: url("../images/final4.png");
+		   background-color:#333;
+		   
+
+		  
+}
+  
+      #titre {
+		  
+		  position:absolute;
+		  top:20px;
+		  left:20px;
+		  background-image:url(../images/titre2.png);
+		  height:100px;
+		  width:426px;
+		  z-index:1;
+}
+
+   #fenetre {
+		  
+		  background-color: transparent;
+    background-image: url("../images/fenetress.jpg");
+    background-repeat: no-repeat;
+	background-position:bottom center;
+    height: 473px;
+    top: 130px;
+    position: absolute;
+    right: 10%;
+    width: 325px;
+	    z-index: 2;
+}
+
+
+
+#intro {
+    background-color: transparent;
+    background-image: url("../images/intro.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: -17px;
+    height: 13px;
+    left: -2px;
+    position: absolute;
+    width: 150px;
+    z-index: 3;
+}
+#lavie {
+    background-color: transparent;
+    background-image: url("../images/lavie.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: -34px;
+    height: 13px;
+    left: 20px;
+    position: absolute;
+    width: 135px;
+    z-index: 3;
+}
+#conclusion {
+    background-color: transparent;
+    background-image: url("../images/conclusion.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: -17px;
+    height: 13px;
+    left: 147px;
+    position: absolute;
+    width: 77px;
+    z-index: 3;
+}
+#credits {
+    background-color: transparent;
+    background-image: url("../images/credits.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: -17px;
+    height: 13px;
+    position: absolute;
+    right: 0;
+    width: 55px;
+    z-index: 3;
+}
+
+#bonus {
+    background-color: transparent;
+    background-image: url("../images/bonus.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: -17px;
+    height: 13px;
+    position: absolute;
+    right: 55px;
+    width: 46px;
+    z-index: 3;
+}
+
+   #plusmoins {
+		  
+		  background-color: #0099FF;
+    height: 12px;
+    padding: 1px 1px 2px 5px;
+    position: absolute;
+    right: 10%;
+    top: 112px;
+    width: 27px;
+    z-index: 2;
+}
+
+  .fiche {
+		  
+ color: #FFFFFF;
+    display: none;
+    font-size: 8pt;
+    height: 473px;
+    line-height: 10pt;
+    padding: 20px;
+    position: absolute;
+    width: 285px;
+    z-index: 0;
+
+		}
+		
+	#zones {
+	 background-image:url(../images/zones.png);
+	background-repeat:no-repeat;
+    height: 106px;
+    width: 175px;
+	position:absolute;
+	left:30px;
+	bottom:41px;
+	z-index:2;
+		}
+		
+
+   
+   #TXTCAM {
+	background-repeat:no-repeat;
+    height: 473px;
+    width: 100%;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	z-index:2;
+	color:white !important;
+		}
+		
+     #matricule {
+	color: white;
+    font-family: helvetica,sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+    left: 22px;
+    position: absolute;
+    top: 25px;
+		}
+		 #planque {
+ font-size: 12pt;
+    font-weight: bold;
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    width: 255px;
+	  height: 20px;
+		}
+		#terrain {
+    font-size: 15pt;
+    font-weight: bold;
+    left: 55px;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 145px;
+}
+		 #pn {
+			float: right;
+    font-size: 15pt;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    position: absolute;
+    right: 31px;
+    top: 145px;
+		}
+		 #pn2 {
+			float: right;
+    font-size: 15pt;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    position: absolute;
+    right: 76px;
+    top: 145px;
+		}
+	.nbr_cam {
+
+  font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1pt;
+	height: 32px;
+		}
+		
+		
+
+	.titrezone {
+		color:#0099CC;
+		font-weight:bold;
+		font-size:12px;
+	}
+	.infobulle {
+		color:black;
+		font-size:11px;
+		height:100%;
+		width:500px;
+	}
+	.creative {
+	bottom: 50px;
+    left: 15px;
+    position: absolute;
+	}
+	
+	#lienSRC {
+		position: absolute;
+bottom: 50px;
+left: 130px;
+color: white;
+font-size: 6pt;
+line-height: 7pt;
+	}
+	
+	#col1 {
+    float: left;
+    height: 245px;
+    left: 110px;
+    position: absolute;
+    top: 222px;
+    width: 50px;
+}
+#col2 {
+    float: left;
+    font-size: 11px;
+    height: 245px;
+    left: 271px;
+    position: absolute;
+    top: 222px;
+    width: 50px;
+}
+
+#preloader {
+    background: url("../images/final4.png");
+	background-color:#333;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+#spinner_container {
+    margin: 200px auto;
+    width: 427px;
+height: 250px;
+	background-image:url(../images/titre2.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	font-size:8px;
+	text-align:center;
+	letter-spacing:1PT;
+
+}
+#spinner {
+    margin: 150px 0 auto;
+    width: 128px;
+	height:15px;
+
+}
+#bandeau {
+	 background-image: url("../images/lisez.png");
+    background-repeat: no-repeat;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+	z-index:999;
+
+}
